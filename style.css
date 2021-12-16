@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  
+  .navbar{
+      border-width:1px 0;
+      list-style:none;
+      margin:0;
+      padding:0;
+      text-align:center;
+      background-color: #FFC4D6;
+  }
+  .navbar li{
+      display:inline;
+  }
+  
+  .navbar li a {
+    color: white;
+  
+  }
+  
+  .navbar a{
+      display:inline-block;
+      padding:10px;
+      text-decoration: none;
+  
+  }
+  
+  .header {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .featured{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: center;
+      align-content: stretch;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  .feat{
+    padding: 20px;
+  }
+  
+  .items{
+    background-color: grey;
+    padding: 100px;
+    margin: 100px;
+    color: white;
+    font-size: large;
+  }
+  
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    color: #A480CF;
+  }
+  
+  .fa-twitter {
+    color: #A480CF;
+  }
+  
+  .fa-linkedin {
+    color: #A480CF;
+  }
+  
+  .fa-instagram {
+    color: #A480CF;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #FFC4D6;
+    color: #A480CF;
+  }
